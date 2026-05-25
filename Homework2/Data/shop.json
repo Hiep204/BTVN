@@ -1,0 +1,690 @@
+{
+  "storeId": "S001",
+  "storeName": "Tech Store Vietnam",
+  "foundedYear": 2020,
+  "isActive": true,
+  "contact": {
+    "email": "contact@techstore.vn",
+    "phone": "0909123456",
+    "website": "https://techstore.vn"
+  },
+  "address": {
+    "street": "123 Nguyen Trai",
+    "district": "Thanh Xuan",
+    "city": "Ha Noi",
+    "country": "Vietnam"
+  },
+  "categories": [
+    {
+      "categoryId": 1,
+      "categoryName": "Laptop",
+      "description": "Máy tính xách tay",
+      "parentCategoryId": null
+    },
+    {
+      "categoryId": 2,
+      "categoryName": "Smartphone",
+      "description": "Điện thoại thông minh",
+      "parentCategoryId": null
+    },
+    {
+      "categoryId": 3,
+      "categoryName": "Accessories",
+      "description": "Phụ kiện công nghệ",
+      "parentCategoryId": null
+    }
+  ],
+  "products": [
+    {
+      "productId": 101,
+      "productName": "Dell XPS 13",
+      "price": 32000000,
+      "discount": 10,
+      "currency": "VND",
+      "inStock": true,
+      "quantity": 12,
+      "categoryId": 1,
+      "tags": [ "laptop", "dell", "office" ],
+      "dimensions": {
+        "width": 30.2,
+        "height": 1.5,
+        "depth": 20.1,
+        "unit": "cm"
+      },
+      "weight": {
+        "value": 1.2,
+        "unit": "kg"
+      },
+      "manufacturer": {
+        "companyName": "Dell",
+        "country": "USA",
+        "foundedYear": 1984
+      },
+      "specifications": {
+        "CPU": "Intel Core i7",
+        "RAM": "16GB",
+        "Storage": "512GB SSD",
+        "Screen": "13.4 inch"
+      },
+      "images": [
+        "https://example.com/images/dell-xps-13-1.jpg",
+        "https://example.com/images/dell-xps-13-2.jpg"
+      ],
+      "ratings": {
+        "average": 4.7,
+        "count": 120
+      }
+    },
+    {
+      "productId": 102,
+      "productName": "iPhone 15",
+      "price": 25000000,
+      "discount": 5,
+      "currency": "VND",
+      "inStock": true,
+      "quantity": 20,
+      "categoryId": 2,
+      "tags": [ "smartphone", "apple", "ios" ],
+      "dimensions": {
+        "width": 7.1,
+        "height": 14.7,
+        "depth": 0.8,
+        "unit": "cm"
+      },
+      "weight": {
+        "value": 0.17,
+        "unit": "kg"
+      },
+      "manufacturer": {
+        "companyName": "Apple",
+        "country": "USA",
+        "foundedYear": 1976
+      },
+      "specifications": {
+        "Chip": "A16 Bionic",
+        "RAM": "6GB",
+        "Storage": "128GB",
+        "Camera": "48MP"
+      },
+      "images": [
+        "https://example.com/images/iphone-15-1.jpg"
+      ],
+      "ratings": {
+        "average": 4.8,
+        "count": 200
+      }
+    },
+    {
+      "productId": 103,
+      "productName": "Logitech Gaming Mouse",
+      "price": 850000,
+      "discount": 0,
+      "currency": "VND",
+      "inStock": true,
+      "quantity": 50,
+      "categoryId": 3,
+      "tags": [ "mouse", "gaming", "logitech" ],
+      "dimensions": {
+        "width": 6.5,
+        "height": 4.0,
+        "depth": 12.5,
+        "unit": "cm"
+      },
+      "weight": {
+        "value": 0.09,
+        "unit": "kg"
+      },
+      "manufacturer": {
+        "companyName": "Logitech",
+        "country": "Switzerland",
+        "foundedYear": 1981
+      },
+      "specifications": {
+        "DPI": "12000",
+        "Connection": "USB",
+        "RGB": true
+      },
+      "images": [
+        "https://example.com/images/logitech-mouse.jpg"
+      ],
+      "ratings": {
+        "average": 4.4,
+        "count": 80
+      }
+    },
+    {
+      "productId": 104,
+      "productName": "Asus TUF Gaming F15",
+      "price": 18500000,
+      "discount": 8,
+      "currency": "VND",
+      "inStock": true,
+      "quantity": 8,
+      "categoryId": 1,
+      "tags": [ "laptop", "asus", "gaming" ],
+      "dimensions": {
+        "width": 35.9,
+        "height": 2.4,
+        "depth": 25.6,
+        "unit": "cm"
+      },
+      "weight": {
+        "value": 2.3,
+        "unit": "kg"
+      },
+      "manufacturer": {
+        "companyName": "Asus",
+        "country": "Taiwan",
+        "foundedYear": 1989
+      },
+      "specifications": {
+        "CPU": "Intel Core i5",
+        "RAM": "16GB",
+        "Storage": "512GB SSD",
+        "GPU": "RTX 3050"
+      },
+      "images": [
+        "https://example.com/images/asus-tuf.jpg"
+      ],
+      "ratings": {
+        "average": 4.6,
+        "count": 95
+      }
+    },
+    {
+      "productId": 105,
+      "productName": "Laptop Backpack",
+      "price": 650000,
+      "discount": 0,
+      "currency": "VND",
+      "inStock": true,
+      "quantity": 70,
+      "categoryId": 3,
+      "tags": [ "bag", "accessory", "laptop" ],
+      "dimensions": {
+        "width": 32,
+        "height": 45,
+        "depth": 15,
+        "unit": "cm"
+      },
+      "weight": {
+        "value": 0.8,
+        "unit": "kg"
+      },
+      "manufacturer": {
+        "companyName": "Local Brand",
+        "country": "Vietnam",
+        "foundedYear": 2015
+      },
+      "specifications": {
+        "Material": "Polyester",
+        "Waterproof": true,
+        "Capacity": "25L"
+      },
+      "images": [
+        "https://example.com/images/backpack.jpg"
+      ],
+      "ratings": {
+        "average": 4.2,
+        "count": 40
+      }
+    }
+  ],
+  "customers": [
+    {
+      "customerId": "C001",
+      "fullName": "Nguyen Van A",
+      "dateOfBirth": "1998-05-12",
+      "gender": "Male",
+      "isPremium": true,
+      "emails": [ "a@gmail.com", "a.work@gmail.com" ],
+      "phones": [ "0911111111" ],
+      "addresses": [
+        {
+          "street": "12 Le Loi",
+          "district": "Hai Chau",
+          "city": "Da Nang",
+          "country": "Vietnam"
+        }
+      ],
+      "preferences": {
+        "favoriteCategories": [ 1, 3 ],
+        "newsletterSubscribed": true,
+        "language": "vi"
+      }
+    },
+    {
+      "customerId": "C002",
+      "fullName": "Tran Thi B",
+      "dateOfBirth": "2000-10-22",
+      "gender": "Female",
+      "isPremium": false,
+      "emails": [ "b@gmail.com" ],
+      "phones": [ "0922222222" ],
+      "addresses": [
+        {
+          "street": "88 Nguyen Hue",
+          "district": "District 1",
+          "city": "Ho Chi Minh City",
+          "country": "Vietnam"
+        }
+      ],
+      "preferences": {
+        "favoriteCategories": [ 2 ],
+        "newsletterSubscribed": false,
+        "language": "vi"
+      }
+    },
+    {
+      "customerId": "C003",
+      "fullName": "Le Minh C",
+      "dateOfBirth": "1995-03-18",
+      "gender": "Male",
+      "isPremium": true,
+      "emails": [ "c@gmail.com" ],
+      "phones": [ "0933333333" ],
+      "addresses": [
+        {
+          "street": "45 Tran Phu",
+          "district": "Ninh Kieu",
+          "city": "Can Tho",
+          "country": "Vietnam"
+        }
+      ],
+      "preferences": {
+        "favoriteCategories": [ 1, 2 ],
+        "newsletterSubscribed": true,
+        "language": "en"
+      }
+    }
+  ],
+  "orders": [
+    {
+      "orderId": "O001",
+      "customerId": "C001",
+      "orderDate": "2026-05-01",
+      "status": "Completed",
+      "shippingAddress": {
+        "street": "12 Le Loi",
+        "district": "Hai Chau",
+        "city": "Da Nang",
+        "country": "Vietnam"
+      },
+      "billingAddress": {
+        "street": "12 Le Loi",
+        "district": "Hai Chau",
+        "city": "Da Nang",
+        "country": "Vietnam"
+      },
+      "items": [
+        {
+          "productId": 101,
+          "quantity": 1,
+          "unitPrice": 32000000,
+          "discount": 10
+        }
+      ],
+      "payment": {
+        "method": "Credit Card",
+        "transactionId": "TX001",
+        "paid": true,
+        "paidDate": "2026-05-01"
+      },
+      "shipping": {
+        "carrier": "Giao Hang Nhanh",
+        "trackingNumber": "GHN001",
+        "estimatedDelivery": "2026-05-04"
+      },
+      "coupon": {
+        "code": "SALE10",
+        "discountPercent": 10
+      },
+      "tax": 8,
+      "shippingFee": 30000,
+      "totalAmount": 31134000
+    },
+    {
+      "orderId": "O002",
+      "customerId": "C002",
+      "orderDate": "2026-05-03",
+      "status": "Pending",
+      "shippingAddress": {
+        "street": "88 Nguyen Hue",
+        "district": "District 1",
+        "city": "Ho Chi Minh City",
+        "country": "Vietnam"
+      },
+      "billingAddress": {
+        "street": "88 Nguyen Hue",
+        "district": "District 1",
+        "city": "Ho Chi Minh City",
+        "country": "Vietnam"
+      },
+      "items": [
+        {
+          "productId": 102,
+          "quantity": 1,
+          "unitPrice": 25000000,
+          "discount": 5
+        }
+      ],
+      "payment": {
+        "method": "Bank Transfer",
+        "transactionId": null,
+        "paid": false,
+        "paidDate": null
+      },
+      "shipping": {
+        "carrier": "Viettel Post",
+        "trackingNumber": null,
+        "estimatedDelivery": "2026-05-07"
+      },
+      "coupon": {
+        "code": null,
+        "discountPercent": 0
+      },
+      "tax": 8,
+      "shippingFee": 40000,
+      "totalAmount": 25690000
+    },
+    {
+      "orderId": "O003",
+      "customerId": "C003",
+      "orderDate": "2026-05-05",
+      "status": "Completed",
+      "shippingAddress": {
+        "street": "45 Tran Phu",
+        "district": "Ninh Kieu",
+        "city": "Can Tho",
+        "country": "Vietnam"
+      },
+      "billingAddress": {
+        "street": "45 Tran Phu",
+        "district": "Ninh Kieu",
+        "city": "Can Tho",
+        "country": "Vietnam"
+      },
+      "items": [
+        {
+          "productId": 104,
+          "quantity": 1,
+          "unitPrice": 18500000,
+          "discount": 8
+        },
+        {
+          "productId": 103,
+          "quantity": 2,
+          "unitPrice": 850000,
+          "discount": 0
+        }
+      ],
+      "payment": {
+        "method": "E-Wallet",
+        "transactionId": "TX003",
+        "paid": true,
+        "paidDate": "2026-05-05"
+      },
+      "shipping": {
+        "carrier": "J&T Express",
+        "trackingNumber": "JT003",
+        "estimatedDelivery": "2026-05-09"
+      },
+      "coupon": {
+        "code": "VIP5",
+        "discountPercent": 5
+      },
+      "tax": 8,
+      "shippingFee": 35000,
+      "totalAmount": 19700000
+    },
+    {
+      "orderId": "O004",
+      "customerId": "C001",
+      "orderDate": "2026-05-08",
+      "status": "Pending",
+      "shippingAddress": {
+        "street": "12 Le Loi",
+        "district": "Hai Chau",
+        "city": "Da Nang",
+        "country": "Vietnam"
+      },
+      "billingAddress": {
+        "street": "12 Le Loi",
+        "district": "Hai Chau",
+        "city": "Da Nang",
+        "country": "Vietnam"
+      },
+      "items": [
+        {
+          "productId": 105,
+          "quantity": 3,
+          "unitPrice": 650000,
+          "discount": 0
+        }
+      ],
+      "payment": {
+        "method": "Cash",
+        "transactionId": null,
+        "paid": false,
+        "paidDate": null
+      },
+      "shipping": {
+        "carrier": "Giao Hang Tiet Kiem",
+        "trackingNumber": null,
+        "estimatedDelivery": "2026-05-12"
+      },
+      "coupon": {
+        "code": null,
+        "discountPercent": 0
+      },
+      "tax": 8,
+      "shippingFee": 25000,
+      "totalAmount": 2131000
+    }
+  ],
+  "employees": [
+    {
+      "employeeId": "E001",
+      "fullName": "Pham Quoc D",
+      "position": "Store Manager",
+      "salary": 25000000,
+      "hireDate": "2021-01-10",
+      "managerId": null,
+      "skills": [ "management", "sales", "training" ],
+      "performance": {
+        "year": 2025,
+        "rating": 4.8,
+        "bonus": 20000000
+      }
+    },
+    {
+      "employeeId": "E002",
+      "fullName": "Hoang Thi E",
+      "position": "Sales Staff",
+      "salary": 12000000,
+      "hireDate": "2022-04-15",
+      "managerId": "E001",
+      "skills": [ "sales", "customer service" ],
+      "performance": {
+        "year": 2025,
+        "rating": 4.6,
+        "bonus": 8000000
+      }
+    },
+    {
+      "employeeId": "E003",
+      "fullName": "Do Van F",
+      "position": "Warehouse Staff",
+      "salary": 10000000,
+      "hireDate": "2023-02-01",
+      "managerId": "E001",
+      "skills": [ "inventory", "packing" ],
+      "performance": {
+        "year": 2025,
+        "rating": 4.1,
+        "bonus": 4000000
+      }
+    },
+    {
+      "employeeId": "E004",
+      "fullName": "Nguyen Thi G",
+      "position": "Accountant",
+      "salary": 15000000,
+      "hireDate": "2021-08-20",
+      "managerId": "E001",
+      "skills": [ "accounting", "excel" ],
+      "performance": {
+        "year": 2025,
+        "rating": 4.7,
+        "bonus": 10000000
+      }
+    },
+    {
+      "employeeId": "E005",
+      "fullName": "Bui Minh H",
+      "position": "Support Staff",
+      "salary": 9000000,
+      "hireDate": "2024-03-12",
+      "managerId": "E002",
+      "skills": [ "support", "communication" ],
+      "performance": {
+        "year": 2025,
+        "rating": 3.9,
+        "bonus": 2000000
+      }
+    }
+  ],
+  "systemLogs": [
+    {
+      "logId": "L001",
+      "timestamp": "2026-05-01T08:00:00",
+      "level": "Info",
+      "message": "System started",
+      "userId": "E001",
+      "metadata": {
+        "ipAddress": "192.168.1.10",
+        "browser": "Chrome",
+        "operatingSystem": "Windows"
+      }
+    },
+    {
+      "logId": "L002",
+      "timestamp": "2026-05-01T09:10:00",
+      "level": "Info",
+      "message": "Customer logged in",
+      "userId": "C001",
+      "metadata": {
+        "ipAddress": "192.168.1.11",
+        "browser": "Edge",
+        "operatingSystem": "Windows"
+      }
+    },
+    {
+      "logId": "L003",
+      "timestamp": "2026-05-01T10:30:00",
+      "level": "Warning",
+      "message": "Low stock detected",
+      "userId": "E003",
+      "metadata": {
+        "ipAddress": "192.168.1.12",
+        "browser": "Chrome",
+        "operatingSystem": "Windows"
+      }
+    },
+    {
+      "logId": "L004",
+      "timestamp": "2026-05-02T11:20:00",
+      "level": "Info",
+      "message": "Order created",
+      "userId": "C002",
+      "metadata": {
+        "ipAddress": "192.168.1.13",
+        "browser": "Safari",
+        "operatingSystem": "iOS"
+      }
+    },
+    {
+      "logId": "L005",
+      "timestamp": "2026-05-02T12:00:00",
+      "level": "Error",
+      "message": "Payment failed",
+      "userId": "C002",
+      "metadata": {
+        "ipAddress": "192.168.1.13",
+        "browser": "Safari",
+        "operatingSystem": "iOS"
+      }
+    },
+    {
+      "logId": "L006",
+      "timestamp": "2026-05-03T13:30:00",
+      "level": "Info",
+      "message": "Product updated",
+      "userId": "E002",
+      "metadata": {
+        "ipAddress": "192.168.1.14",
+        "browser": "Firefox",
+        "operatingSystem": "Linux"
+      }
+    },
+    {
+      "logId": "L007",
+      "timestamp": "2026-05-04T14:15:00",
+      "level": "Info",
+      "message": "Order shipped",
+      "userId": "E003",
+      "metadata": {
+        "ipAddress": "192.168.1.15",
+        "browser": "Chrome",
+        "operatingSystem": "Windows"
+      }
+    },
+    {
+      "logId": "L008",
+      "timestamp": "2026-05-05T15:45:00",
+      "level": "Warning",
+      "message": "Multiple login attempts",
+      "userId": "C003",
+      "metadata": {
+        "ipAddress": "192.168.1.16",
+        "browser": "Chrome",
+        "operatingSystem": "Android"
+      }
+    },
+    {
+      "logId": "L009",
+      "timestamp": "2026-05-06T16:10:00",
+      "level": "Info",
+      "message": "Backup completed",
+      "userId": "E001",
+      "metadata": {
+        "ipAddress": "192.168.1.17",
+        "browser": "Edge",
+        "operatingSystem": "Windows"
+      }
+    },
+    {
+      "logId": "L010",
+      "timestamp": "2026-05-07T17:00:00",
+      "level": "Error",
+      "message": "Server timeout",
+      "userId": "E001",
+      "metadata": {
+        "ipAddress": "192.168.1.18",
+        "browser": "Chrome",
+        "operatingSystem": "Windows"
+      }
+    }
+  ],
+  "settings": {
+    "supportedLanguages": [ "vi", "en", "ja" ],
+    "defaultCurrency": "VND",
+    "taxRate": 8,
+    "maintenanceMode": false,
+    "backupSchedule": {
+      "frequency": "Daily",
+      "time": "02:00",
+      "retentionDays": 7
+    }
+  }
+}
